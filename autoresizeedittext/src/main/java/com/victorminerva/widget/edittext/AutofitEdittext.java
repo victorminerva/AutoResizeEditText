@@ -6,9 +6,12 @@ import android.util.AttributeSet;
 import android.util.TypedValue;
 
 /**
- * Created by victo on 03/12/2017.
+ * <p>A {@link AppCompatEditText} that resizes its text to be no larger than the width of the display.
+ *
+ * @attr ref R.styleable.AutofitTextView_sizeToFit
+ * @attr ref R.styleable.AutofitTextView_minTextSize
+ * @attr ref R.styleable.AutofitTextView_precision
  */
-
 public class AutofitEdittext extends AppCompatEditText implements AutofitHelper.OnTextSizeChangeListener {
     private AutofitHelper mHelper;
 

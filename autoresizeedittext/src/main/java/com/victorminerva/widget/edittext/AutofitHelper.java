@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.os.Build;
+import android.support.v7.widget.AppCompatEditText;
 import android.text.Editable;
 import android.text.Layout;
 import android.text.StaticLayout;
@@ -16,15 +17,12 @@ import android.util.DisplayMetrics;
 import android.util.Log;
 import android.util.TypedValue;
 import android.view.View;
-import android.widget.EditText;
 import android.widget.TextView;
-
-import com.victorminerva.edittext.R;
 
 import java.util.ArrayList;
 
 /**
- * <p>A helper class to enable automatically resizing {@link EditText}`s {@code textSize} to fit
+ * <p>A helper class to enable automatically resizing {@link AppCompatEditText}`s {@code textSize} to fit
  * within its bounds.
  *
  * @author Victor Minerva<br>
