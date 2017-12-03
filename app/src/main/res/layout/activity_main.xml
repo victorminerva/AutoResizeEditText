@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.victorminerva.app.autosizeedittext.MainActivity">
+
+    <com.victorminerva.widget.edittext.AutofitEdittext
+        android:id="@+id/autoedttxt_value"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/transparent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:hint="HINT"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:maxLength="80"
+        android:maxLines="2"
+        android:textColor="#000000"
+        android:textSize="64sp" />
+
+</LinearLayout>
