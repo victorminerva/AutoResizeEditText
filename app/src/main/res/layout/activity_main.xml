@@ -8,11 +8,9 @@
     <com.victorminerva.widget.edittext.AutofitEdittext
         android:id="@+id/autoedttxt_value"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:background="@android:color/transparent"
-        android:focusable="true"
-        android:focusableInTouchMode="true"
-        android:gravity="center_vertical|center_horizontal"
+        android:gravity="center"
         android:hint="HINT"
         android:inputType="textMultiLine|textNoSuggestions"
         android:maxLength="80"
