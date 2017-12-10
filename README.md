@@ -2,6 +2,8 @@
 
 [![](https://jitpack.io/v/VictorMinerva/AutoResizeEditText.svg)](https://jitpack.io/#VictorMinerva/AutoResizeEditText)
 
+![Arsenal Android](https://img.shields.io/badge/Android%20Arsenal-AutoResizeEditText-green.svg?style=flat)
+
 A EditText that resizes its text to be no larger than the width of the display.
 
 ![Example Image](/web/static/autoresizeedittext.gif?raw=true)
