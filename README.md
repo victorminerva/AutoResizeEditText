@@ -26,7 +26,7 @@ allprojects {
   
 ```cson
 dependencies {
-  compile 'com.github.VictorMinerva:AutoResizeEditText:0.1.0'
+  compile 'com.github.victorminerva:AutoResizeEditText:0.1.0'
 }
 ```
 
