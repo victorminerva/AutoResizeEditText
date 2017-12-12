@@ -4,8 +4,13 @@
 
 ![Arsenal Android](https://img.shields.io/badge/Android%20Arsenal-AutoResizeEditText-green.svg?style=flat)
 
+> If you have any question or suggestion with this library , welcome to tell me !
+
+## Introduction
+
 A EditText that resizes its text to be no larger than the width of the display.
 
+## Demo
 ![Example Image](/web/static/autoresizeedittext.gif?raw=true)
 
 ## Usage
